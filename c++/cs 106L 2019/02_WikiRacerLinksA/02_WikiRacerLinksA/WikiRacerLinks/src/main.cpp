@@ -5,9 +5,8 @@
 using std::cout;            using std::endl;
 using std::string;          using std::unordered_set;
 
-
 int main() {
-	
+
     /* TODO: Write code here! */
 
     /* Note if your file reading isn't working, please go to the
