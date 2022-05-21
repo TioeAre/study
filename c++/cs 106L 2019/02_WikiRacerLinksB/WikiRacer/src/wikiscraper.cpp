@@ -37,6 +37,7 @@ unordered_set<string> findWikiLinks(const string& inp) {
  * |                           DON"T EDIT ANYTHING BELOW HERE                       |
  * ==================================================================================
  */
+
 unordered_set<string> WikiScraper::getLinkSet(const string& page_name) {
     if(linkset_cache.find(page_name) == linkset_cache.end()) {
         auto links = findWikiLinks(getPageSource(page_name));
@@ -105,8 +106,3 @@ string WikiScraper::getPageSource(const string &page_name) {
     }
     return page_cache[page_name];
 }
-
-
-
-
-
